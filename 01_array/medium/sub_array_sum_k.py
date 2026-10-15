@@ -4,7 +4,7 @@ class Solution:
         count = 0
         sumi = 0 #prefix sum
         
-        d = {0:1}   #storing the prefix sum and its frequency in a dictionary
+        d = {0:1}   #storing the prefix sum and its frequency in a dictionary   
         
         for i in nums:
             sumi += i
